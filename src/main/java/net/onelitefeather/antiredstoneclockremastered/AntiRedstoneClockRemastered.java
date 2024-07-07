@@ -110,9 +110,9 @@ public final class AntiRedstoneClockRemastered extends JavaPlugin {
     }
 
     private void updateService() {
-        this.updateService = new UpdateService(this);
-        this.updateService.run();
-        this.updateService.notifyConsole(getComponentLogger());
+        // this.updateService = new UpdateService(this);
+        // this.updateService.run();
+        // this.updateService.notifyConsole(getComponentLogger());
     }
 
     @Override
